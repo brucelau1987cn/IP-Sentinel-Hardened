@@ -1,10 +1,32 @@
-# 🛡️ IP-Sentinel (分布式 IP 哨兵集群)
+# 🛡️ IP-Sentinel Hardened (分布式 IP 哨兵集群 - 硬化版)
 
-![Agent Installs](https://img.shields.io/endpoint?url=https://ip-sentinel-count.samanthaestime296.workers.dev/stats/agent)
-![Master Commands](https://img.shields.io/endpoint?url=https://ip-sentinel-count.samanthaestime296.workers.dev/stats/master)
-![License](https://img.shields.io/github/license/hotyue/IP-Sentinel)
+![License](https://img.shields.io/github/license/brucelau1987cn/IP-Sentinel-Hardened)
 
-> **一个极度轻量、零感知、支持中枢遥控的 VPS IP 自动化养护与区域纠偏引擎。**
+> 基于 [hotyue/IP-Sentinel](https://github.com/hotyue/IP-Sentinel) 的安全加固与健壮性优化分支。
+
+---
+
+## 🔧 硬化版改动清单
+
+### 🔒 安全加固
+- **消灭 `source` 配置注入漏洞**：原版所有脚本直接 `source $CONFIG_FILE`，若 config.conf 被篡改可注入任意 shell 命令。已全部替换为 `read_config_val()` 函数安全逐字段读取，涉及文件：
+  - `core/install.sh`（OTA 静默升级 + 平滑升级两处）
+  - `core/agent_daemon.sh`
+  - `core/mod_google.sh`
+  - `core/mod_trust.sh`
+
+### 🐛 Bug 修复
+- **Google Maps URL 双美元号 typo**：`mod_google.sh` 中地图查询 URL 写成 `$${ENCODED_KEY}`，实际应为 `${ENCODED_KEY}`，导致地图模块流量 404
+- **哈希锚定碰撞率优化**：UA 指纹池的质数乘数从 `17/31` 升级为 `127/311`，在 4000+ UA 池下大幅降低不同节点撞到相同设备指纹的概率
+
+### 🛡️ 健壮性增强
+- **map.json 拉取增加重试**：原版仅请求一次，网络波动直接失败退出。改为 3 次重试 + 间隔 2 秒
+- **进程停止改为优雅终止**：原版 `pkill -9` 直接 SIGKILL，可能导致日志/数据库写一半损坏。改为先 SIGTERM 等待 3 秒，再 SIGKILL 兜底
+  - `core/install.sh`：webhook.py / agent_daemon.sh / runner.sh
+  - `master/install_master.sh`：tg_master.sh
+- **新增 logrotate 配置**：`sentinel.log` 每日轮转，保留 7 天，单文件上限 50MB，防止长期运行日志撑爆磁盘
+
+---
 
 📢 官方战术交流频道: 🛰️ [IP-Sentinel Matrix](https://t.me/IP_Sentinel_Matrix)
 
