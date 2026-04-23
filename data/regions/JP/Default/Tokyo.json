@@ -1,0 +1,39 @@
+{
+  "region_name": "日本 (东京)",
+  "google_module": {
+    "base_lat": 35.6812,
+    "base_lon": 139.7671,
+    "lang_params": "hl=ja&gl=JP",
+    "valid_url_suffix": "com"
+  },
+  "trust_module": {
+    "white_urls": [
+      "https://news.yahoo.co.jp/pickup/6577261?source=rss",
+      "https://news.yahoo.co.jp/pickup/6577269?source=rss",
+      "https://www.jreast.co.jp/",
+      "https://news.yahoo.co.jp/pickup/6577270?source=rss",
+      "https://www.mhlw.go.jp/",
+      "https://news.yahoo.co.jp/pickup/6577267?source=rss",
+      "https://www.rakuten.co.jp/",
+      "https://news.yahoo.co.jp/pickup/6577233?source=rss",
+      "https://news.yahoo.co.jp/pickup/6577266?source=rss",
+      "https://www.smbc.co.jp/",
+      "https://www.yahoo.co.jp/",
+      "https://news.yahoo.co.jp/pickup/6577265?source=rss",
+      "https://www.japan.go.jp/",
+      "https://news.yahoo.co.jp/pickup/6577260?source=rss",
+      "https://www.amazon.co.jp/",
+      "https://www.u-tokyo.ac.jp/"
+    ],
+    "static_urls": [
+      "https://www.japan.go.jp/",
+      "https://www.mhlw.go.jp/",
+      "https://www.u-tokyo.ac.jp/",
+      "https://www.smbc.co.jp/",
+      "https://www.jreast.co.jp/",
+      "https://www.yahoo.co.jp/",
+      "https://www.amazon.co.jp/",
+      "https://www.rakuten.co.jp/"
+    ]
+  }
+}

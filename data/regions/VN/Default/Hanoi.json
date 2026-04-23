@@ -1,0 +1,44 @@
+{
+  "region_name": "Vietnam - Hanoi",
+  "google_module": {
+    "base_lat": 21.0285,
+    "base_lon": 105.8542,
+    "lang_params": "hl=vi&gl=VN",
+    "valid_url_suffix": "vn"
+  },
+  "trust_module": {
+    "white_urls": [
+      "https://vnexpress.net/loat-nha-khoa-hoc-my-chet-mat-tich-fbi-vao-cuoc-dieu-tra-5065887.html",
+      "https://chinhphu.vn/",
+      "https://vnexpress.net/co-be-liet-tu-chi-on-thi-tren-giuong-benh-5059607.html",
+      "https://vnexpress.net/dem-dinh-menh-cua-thieu-nu-trong-chuyen-du-lich-cung-lop-5065881.html",
+      "https://vnexpress.net/dan-dai-bac-khai-hoa-trong-le-don-tong-thong-han-quoc-5065884.html",
+      "https://vnexpress.net/hang-chuc-nguoi-ho-het-ruot-duoi-nao-loan-duong-pho-5065896.html",
+      "https://vnexpress.net/u-vu-nho-con-1-cm-nho-dieu-tri-ca-the-hoa-5065640.html",
+      "https://vnexpress.net/chong-co-quyen-doi-co-ten-tren-manh-dat-toi-duoc-bo-me-cho-rieng-khong-5065885.html",
+      "https://dichvucong.gov.vn/",
+      "https://vnexpress.net/phat-hien-suy-than-tu-trieu-chung-ngua-da-5065831.html",
+      "https://vnexpress.net/",
+      "https://tiki.vn/",
+      "https://vnexpress.net/cong-nghe-phat-hien-tri-deepfake-5064885.html",
+      "https://vnexpress.net/biet-thu-650-m2-phong-cach-nhiet-doi-hien-dai-giua-sai-gon-5065581.html",
+      "https://vnexpress.net/viet-han-hop-tac-ve-cong-nghe-so-doi-moi-sang-tao-va-so-huu-tri-tue-5065912.html",
+      "https://vnexpress.net/sach-ve-cuoc-doi-cua-tong-thong-han-quoc-lee-jae-myung-5064384.html",
+      "https://vnexpress.net/mb-tang-loa-thanh-toan-mien-phi-5-nam-cho-ho-kinh-doanh-5064445.html",
+      "https://vnu.edu.vn/",
+      "https://www.vietcombank.com.vn/",
+      "https://vnexpress.net/nguong-doanh-thu-chiu-thue-voi-ho-kinh-doanh-duoc-de-xuat-len-1-ty-dong-5065883.html",
+      "https://vnexpress.net/mau-thuan-trong-vu-cuu-truong-cong-an-phu-quoc-bi-cao-buoc-lua-dao-5065755.html",
+      "https://shopee.vn/"
+    ],
+    "static_urls": [
+      "https://chinhphu.vn/",
+      "https://dichvucong.gov.vn/",
+      "https://vnu.edu.vn/",
+      "https://www.vietcombank.com.vn/",
+      "https://shopee.vn/",
+      "https://tiki.vn/",
+      "https://vnexpress.net/"
+    ]
+  }
+}
