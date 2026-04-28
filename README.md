@@ -18,6 +18,7 @@
 ### 🐛 Bug 修复
 - **Google Maps URL 双美元号 typo**：`mod_google.sh` 中地图查询 URL 写成 `$${ENCODED_KEY}`，实际应为 `${ENCODED_KEY}`，导致地图模块流量 404
 - **哈希锚定碰撞率优化**：UA 指纹池的质数乘数从 `17/31` 升级为 `127/311`，在 4000+ UA 池下大幅降低不同节点撞到相同设备指纹的概率
+- **终端展示名回归修复**：`core/tg_daemon.sh` 的 `/run`、`/log`、`/help` 等用户可见消息统一使用 `DISPLAY_NAME`，优先展示安装时配置的自定义节点名 `NODE_ALIAS`，不再把 `hostname` 派生的内部标识直接暴露给用户
 
 ### 🛡️ 健壮性增强
 - **map.json 拉取增加重试**：原版仅请求一次，网络波动直接失败退出。改为 3 次重试 + 间隔 2 秒
@@ -87,6 +88,7 @@ curl -fsSL https://raw.githubusercontent.com/brucelau1987cn/IP-Sentinel-Hardened
 curl -fsSL https://raw.githubusercontent.com/brucelau1987cn/IP-Sentinel-Hardened/main/core/install.sh -o /tmp/ins_agent.sh && sudo bash /tmp/ins_agent.sh
 ```
 - 激活节点：安装完成后，您的手机会收到一条 #REGISTER# 注册暗号，将其转发给您自己的机器人即可完成编队入库。
+- 节点显示名：安装过程中填写的自定义节点名会保存为 `NODE_ALIAS`。Telegram 终端、`/run`、`/log` 与帮助面板会优先展示该名称；`NODE_NAME` 仅保留为内部唯一标识，必要时才从 `hostname` 自动派生用于兼容老配置。
 
 ### 🔸 模式 B：官方公共模式 (最简体验)
 适合不想折腾、只想快速体验养护效果的新兵。
