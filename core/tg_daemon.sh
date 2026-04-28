@@ -11,6 +11,7 @@ OFFSET_FILE="/tmp/ip_sentinel_tg_offset.txt"
 
 # 1. 环境自检
 [ ! -f "$CONFIG_FILE" ] && exit 1
+# shellcheck source=/dev/null
 source "$CONFIG_FILE"
 
 # 如果没有配置 TG 机器人，则安静退出守护进程
@@ -18,8 +19,12 @@ source "$CONFIG_FILE"
 
 # [核心: 动态版本锚点与防撞甲身份载入]
 LOCAL_VER="${AGENT_VERSION:-未知}"
-IP_HASH=$(echo "${PUBLIC_IP:-127.0.0.1}" | md5sum | cut -c 1-4 | tr 'a-z' 'A-Z')
-NODE_NAME="$(hostname | cut -c 1-10)-${IP_HASH}"
+if [ -z "${NODE_NAME:-}" ]; then
+    IP_HASH=$(echo "${PUBLIC_IP:-127.0.0.1}" | md5sum | cut -c 1-4 | tr '[:lower:]' '[:upper:]')
+    NODE_NAME="$(hostname | tr -cd 'a-zA-Z0-9' | cut -c 1-10)-${IP_HASH}"
+fi
+DISPLAY_NAME="${NODE_ALIAS:-$NODE_NAME}"
+[ -z "$DISPLAY_NAME" ] && DISPLAY_NAME="$NODE_NAME"
 
 # 2. 初始化消息偏移量 (Offset) 记录文件，防止重启后重复处理老消息
 OFFSET=0
@@ -40,7 +45,7 @@ while true; do
     COUNT=$(echo "$UPDATES" | jq -r '.result | length' 2>/dev/null)
     
     if [[ "$COUNT" =~ ^[0-9]+$ ]] && [ "$COUNT" -gt 0 ]; then
-        for (( i=0; i<$COUNT; i++ )); do
+        for (( i=0; i<COUNT; i++ )); do
             UPDATE_ID=$(echo "$UPDATES" | jq -r ".result[$i].update_id")
             MSG_CHAT_ID=$(echo "$UPDATES" | jq -r ".result[$i].message.chat.id")
             MSG_TEXT=$(echo "$UPDATES" | jq -r ".result[$i].message.text")
@@ -49,20 +54,20 @@ while true; do
             if [ "$MSG_CHAT_ID" == "$CHAT_ID" ]; then
                 case "$MSG_TEXT" in
                     "/run")
-                        send_msg "🚀 **[${NODE_NAME}]** 正在后台触发 IP 养护任务 (v${LOCAL_VER})..."
+                        send_msg "🚀 **[${DISPLAY_NAME}]** 正在后台触发 IP 养护任务 (v${LOCAL_VER})..."
                         # 使用 nohup 另起后台独立进程运行，防止阻塞当前监听器的循环
                         nohup bash "${INSTALL_DIR}/core/mod_google.sh" >/dev/null 2>&1 &
                         ;;
                     "/log")
                         LOG_DATA=$(tail -n 15 "${INSTALL_DIR}/logs/sentinel.log")
-                        send_msg "📄 **[${NODE_NAME}] 实时日志 (v${LOCAL_VER}):**%0A\`\`\`log%0A${LOG_DATA}%0A\`\`\`"
+                        send_msg "📄 **[${DISPLAY_NAME}] 实时日志 (v${LOCAL_VER}):**%0A\`\`\`log%0A${LOG_DATA}%0A\`\`\`"
                         ;;
                     "/report")
                         # 触发生成一次战报
                         bash "${INSTALL_DIR}/core/tg_report.sh"
                         ;;
                     "/help"|"/start")
-                        HELP_MSG="🛡️ **IP-Sentinel 边缘控制台**%0A📍 节点: \`${NODE_NAME}\`%0A🔖 版本: \`v${LOCAL_VER}\`%0A%0A/run - 立刻执行一次养护%0A/log - 抓取最新运行日志%0A/report - 手动生成统计简报"
+                        HELP_MSG="🛡️ **IP-Sentinel 边缘控制台**%0A📍 节点: \`${DISPLAY_NAME}\`%0A🔖 版本: \`v${LOCAL_VER}\`%0A%0A/run - 立刻执行一次养护%0A/log - 抓取最新运行日志%0A/report - 手动生成统计简报"
                         send_msg "$HELP_MSG"
                         ;;
                 esac
