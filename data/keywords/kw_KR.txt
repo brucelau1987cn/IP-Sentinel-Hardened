@@ -1,3 +1,13 @@
+arsenal
+아스날
+리그 1
+아스널 대 풀럼
+그것이 알고 싶다
+김민재
+bundesliga
+김태흠
+psg vs lorient
+brentford vs west ham
 문정희
 검열
 김지원
@@ -84,7 +94,6 @@ amd 주가
 노민우
 서비스나우
 김민지
-리그 1
 elche vs atlético madrid
 알나스르
 al-nassr vs al ahli
@@ -127,7 +136,6 @@ mi vs gt
 양치 승
 프리미어리그
 pl
-bundesliga
 맨체스터 시티 fc
 fotmob
 윤아
@@ -151,7 +159,6 @@ KBO 리그
 인스타그램
 유튜브 밴스드
 이강인
-김민재
 LCK 일정
 T1
 페이커
