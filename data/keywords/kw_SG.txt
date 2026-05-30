@@ -1,3 +1,13 @@
+kimpembe
+soccernet
+gabriel magalhães
+declan rice
+hincapie
+hakimi
+joao neves
+marquinhos
+khvicha kvaratskhelia
+david raya
 weather singapore
 sai sudharsan
 ravindra jadeja
@@ -47,14 +57,12 @@ kim tae hee
 smrt east-west line rodent
 lafc vs seattle sounders
 napoli vs udinese
-soccernet
 liverpool f.c. vs brentford f.c. standings
 west ham vs leeds united f.c. standings
 tottenham standings
 world cup 2026
 premier league standings
 world cup
-david raya
 bruno fernandes
 valencia vs barcelona
 real madrid vs athletic club
@@ -190,11 +198,3 @@ nottingham forest vs newcastle united f.c. standings
 west ham vs arsenal
 barcelona vs real madrid
 mi vs rcb
-ferrari accident singapore
-toronto vs inter miami
-atlético madrid vs celta
-lazio vs inter
-wolfsburg vs bayern
-man city vs brentford
-casemiro
-virgil van dijk
