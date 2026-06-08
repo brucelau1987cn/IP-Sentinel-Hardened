@@ -8,29 +8,14 @@
   },
   "trust_module": {
     "white_urls": [
-      "https://www.cbc.ca/news/world/ebola-outbreak-aid-cuts-who-9.7225069?cmp=rss",
       "https://www.canadapost-postescanada.ca/",
-      "https://www.theweathernetwork.com/ca",
-      "https://www.cbc.ca/news/canada/new-brunswick/cail-family-farm-sold-9.7226636?cmp=rss",
-      "https://www.cbc.ca/news/business/ai-clothing-design-9.7219397?cmp=rss",
+      "https://www.utoronto.ca/",
+      "https://www.amazon.ca/",
       "https://www.td.com/",
       "https://www.cra-arc.gc.ca/",
-      "https://www.cbc.ca/news/canada/calgary/alberta-student-loan-university-college-9.7226332?cmp=rss",
       "https://www.rbcroyalbank.com/",
-      "https://www.cbc.ca/news/canada/saskatchewan/mean-prank-9-11-brother-sister-bond-9.7220550?cmp=rss",
-      "https://www.cbc.ca/news/canada/toronto/walk-for-israel-toronto-9.7226553?cmp=rss",
-      "https://www.cbc.ca/news/world/gunman-attack-israel-9.7226565?cmp=rss",
-      "https://www.amazon.ca/",
-      "https://www.cbc.ca/news/business/frozen-juice-is-back-9.7225912?cmp=rss",
-      "https://www.cbc.ca/news/canada/ai-data-centre-opposition-explained-9.7225796?cmp=rss",
-      "https://www.cbc.ca/sports/hockey/nhl/stanley-cup-final-game-3-recap-hurricanes-golden-knights-9.7226105?cmp=rss",
-      "https://www.utoronto.ca/",
-      "https://www.cbc.ca/news/world/armenia-election-russia-vs-europe-9.7225272?cmp=rss",
-      "https://www.cbc.ca/news/canada/gordie-howe-bridge-legal-challenge-opening-9.7216907?cmp=rss",
-      "https://www.cbc.ca/news/world/israel-strike-beirut-suburb-ceasefire-9.7226621?cmp=rss",
-      "https://www.canada.ca/en.html",
-      "https://www.cbc.ca/news/world/russian-drone-chornobyl-9.7226511?cmp=rss",
-      "https://www.cbc.ca/radio/quirks/pigeon-fly-navigation-science-discovery-liver-9.7224081?cmp=rss"
+      "https://www.theweathernetwork.com/ca",
+      "https://www.canada.ca/en.html"
     ],
     "static_urls": [
       "https://www.canada.ca/en.html",
