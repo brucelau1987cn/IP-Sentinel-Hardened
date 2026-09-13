@@ -8,19 +8,19 @@
   },
   "trust_module": {
     "white_urls": [
-      "https://www.kakao.com/",
-      "https://www.yonhapnewstv.co.kr/news/MYH20260912192957TAa",
+      "https://www.yonhapnewstv.co.kr/news/MYH20260913161233h6u",
       "https://www.korea.kr/",
-      "https://www.coupang.com/",
-      "https://www.kbstar.com/",
-      "https://www.naver.com/",
-      "https://www.yonhapnewstv.co.kr/news/MYH202609121921564E4",
-      "https://www.hometax.go.kr/",
-      "https://www.yonhapnewstv.co.kr/news/MYH20260912191504rN4",
       "https://www.snu.ac.kr/",
-      "https://www.daum.net/",
-      "https://www.yonhapnewstv.co.kr/news/MYH20260912192214gu7",
-      "https://www.yonhapnewstv.co.kr/news/MYH20260912200327NjU"
+      "https://www.kakao.com/",
+      "https://www.naver.com/",
+      "https://www.yonhapnewstv.co.kr/news/AKR20260913232958gSE",
+      "https://www.yonhapnewstv.co.kr/news/AKR20260913183938UI8",
+      "https://www.kbstar.com/",
+      "https://www.yonhapnewstv.co.kr/news/MYH20260913210516Egy",
+      "https://www.coupang.com/",
+      "https://www.yonhapnewstv.co.kr/news/AKR20260913205738T6B",
+      "https://www.hometax.go.kr/",
+      "https://www.daum.net/"
     ],
     "static_urls": [
       "https://www.korea.kr/",
