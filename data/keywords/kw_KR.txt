@@ -1,3 +1,13 @@
+시청률
+황신혜
+한다감
+잠수함
+여객기
+반려견
+김연경
+마이크론
+송미령
+황 유민
 추신수
 김하성
 해리 케인
@@ -69,7 +79,6 @@ portugal vs wales
 성영탁
 이재명 지지율
 인천광역시
-한다감
 미사일
 음식
 opus 5.5
@@ -104,7 +113,6 @@ pl
 이승기
 비트코인
 첼시
-여객기
 김가영
 brentford vs chelsea
 바이에른 뮌헨
@@ -190,11 +198,3 @@ skt
 google usa
 champions league
 후지 산
-챔피언스리그 경기
-psg 대 슬로반 브라티슬라바
-나폴리 대 아스널
-첼시 대 리즈 유나이티드
-리버풀 대 아틀레티코
-폴드8
-iphone
-uefa champions league
