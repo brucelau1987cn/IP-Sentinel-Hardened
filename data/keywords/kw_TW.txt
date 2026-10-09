@@ -1,3 +1,13 @@
+臺北市長
+伺服器
+法甲
+德甲
+riot
+巴拿馬
+西甲
+哥斯拉-0.0
+林庭謙
+pltr
 國定假日
 國慶連假
 aaoi
@@ -8,7 +18,6 @@ aaoi
 全家 霜 淇 淋
 美股新聞
 openai
-伺服器
 braves vs dodgers
 勇士 對 道奇
 tsm
@@ -36,7 +45,6 @@ thời tiết
 weather
 工業 電腦
 房子
-臺北市長
 楊萬連
 补贴
 分析 師
@@ -152,7 +160,6 @@ teams
 勞保局
 友達
 陳鏞基老婆
-西甲
 三重火災
 鄭朝方
 jimmy fallon
@@ -191,10 +198,3 @@ barcelona vs racing santander
 man utd vs brighton
 道瓊
 黃金價格
-曼聯 對 布萊頓
-台指夜盤
-ลิเวอร์พูล พบ สเปอร์ส
-利物浦 對 熱刺
-天下雜誌縣市長施政滿意度調查
-clarity act
-清晰法案
