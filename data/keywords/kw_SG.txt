@@ -1,9 +1,18 @@
+cnn
+ucl fixtures
+man city
+real madrid
+champions league games
+psg
+roma vs real madrid
+man city vs psg
+lask vs liverpool
+dog
 singapore haze air pollution
 arsenal f.c. vs losc lille standings
 viking vs bayern
 galatasaray vs barcelona
 barcelona
-champions league games
 arsenal vs losc
 katie zacharia
 atlético vs man utd
@@ -31,7 +40,6 @@ crystal palace f.c. vs nottingham forest standings
 psg vs le mans
 real madrid vs villarreal
 serie a
-real madrid
 uniqlo
 inter vs parma
 boon lay
@@ -190,11 +198,3 @@ norway vs denmark
 lawsuit
 you benchang
 interest rate
-sri lanka vs england
-japan vs uruguay
-south korea vs ecuador
-judge
-ang mo kio
-starhub keppel m1 acquisition talks
-coe
-singapore seized condo units auction
