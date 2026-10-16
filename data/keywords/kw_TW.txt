@@ -1,8 +1,17 @@
+tsm stock
+美股新聞
+德甲
+lcp
+worlds 2026
+川普
+碰撞
+vix
+原油
+股災
 nasdaq
 00406a
 魅影神捕
 李四川
-worlds 2026
 lcs
 歐聯
 boa
@@ -12,7 +21,6 @@ boa
 roma vs madrid
 man city vs psg
 黃暐瀚
-川普
 台北市
 歐冠比賽
 羅馬 對 皇家馬德里
@@ -58,7 +66,6 @@ madrid vs villarreal
 man utd đấu với tottenham
 barcelona vs getafe
 伺服器
-德甲
 riot
 巴拿馬
 西甲
@@ -73,7 +80,6 @@ aaoi
 屏東縣選舉委員會
 愛莉莎莎
 全家 霜 淇 淋
-美股新聞
 openai
 braves vs dodgers
 勇士 對 道奇
@@ -192,9 +198,3 @@ portugal vs wales
 台南火災
 celebration
 台灣彩券
-田馥甄
-lonzo ball
-鑫創科技
-中國信託商業銀行
-政府
-衛生福利部中央健康保險署
