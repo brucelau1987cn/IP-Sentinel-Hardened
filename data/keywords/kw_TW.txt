@@ -1,5 +1,14 @@
-台積電
+美股
+發票
+美股指數
+台湾彩券
+46k
+友達光電
+微軟股價
+所得 替代 率
+tsm
 s&p 500
+台積電
 溫度
 liverpool vs chelsea
 google 財報
@@ -19,7 +28,6 @@ goog
 義甲
 今天天氣
 石油
-台湾彩券
 巴黎聖日耳曼 對 里昂
 金價
 南亞科技
@@ -100,7 +108,6 @@ nottm forest vs arsenal
 洛杉磯湖人
 泰勒絲
 中壢車禍
-發票
 台灣彩券
 拜仁
 lol
@@ -190,11 +197,4 @@ aaoi
 openai
 braves vs dodgers
 勇士 對 道奇
-tsm
 spacex 股價
-何欣純
-友達光電
-流感症狀
-譚松韻
-年金
-สภาพอากาศ
