@@ -1,3 +1,13 @@
+faa
+鋼
+天気
+費城半導體指數
+spacex
+天氣
+aaoi
+thời tiết
+weather
+สภาพอากาศ
 76人 對 暴龍
 klasemen tim nasional sepak bola italia vs tim nasional sepak bola prancis
 返 稅
@@ -20,13 +30,9 @@ wta年終總決賽
 許瑋甯
 南亞科技
 新聞
-天氣
-thời tiết
-สภาพอากาศ
 夜盤指數
 美光
 台湾彩券
-weather
 友達光電
 沃克·凱斯勒
 柯林·塞克斯頓
@@ -74,7 +80,6 @@ twitch
 s&p 500
 mu
 做多
-aaoi
 石油
 鐵路車站
 資訊安全
@@ -128,7 +133,6 @@ lcs
 信用卡
 福原愛
 dc
-費城半導體指數
 普 發 一 萬
 那斯達克綜合指數
 費 半
@@ -194,7 +198,3 @@ avengers doomsday
 板橋火災
 sox
 歐聯
-百貨 公司
-科林研發
-盛艾敬
-cyberpunk
