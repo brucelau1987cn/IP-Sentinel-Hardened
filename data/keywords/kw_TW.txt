@@ -1,3 +1,13 @@
+天氣
+weather
+星巴克 買 一 送 一
+天气
+爵士 對 馬刺
+高金素梅
+輝達
+退休金
+費玉清
+發票
 台灣彩券
 portugal vs denmark
 lpl
@@ -13,10 +23,8 @@ faa
 天気
 費城半導體指數
 spacex
-天氣
 aaoi
 thời tiết
-weather
 สภาพอากาศ
 76人 對 暴龍
 klasemen tim nasional sepak bola italia vs tim nasional sepak bola prancis
@@ -29,7 +37,6 @@ wta年終總決賽
 米拉·安祖莉娃
 聖嬰現象
 暴龍 對 塞爾提克
-退休金
 吳泱潾
 亞冠賽
 尼克 對 騎士
@@ -148,7 +155,6 @@ lcs
 黃金價格
 勒阿弗爾 對 巴黎聖日耳曼
 川普
-發票
 美股指數
 46k
 微軟股價
@@ -163,7 +169,6 @@ google 財報
 typhoon champi
 t1
 goog
-輝達
 今彩539
 電子 紙
 1
@@ -193,8 +198,3 @@ tes
 世界賽賽程
 張衛健
 切爾西 對 熱刺
-兵工廠
-地震
-地震速報
-公鹿 對 公牛
-riot
