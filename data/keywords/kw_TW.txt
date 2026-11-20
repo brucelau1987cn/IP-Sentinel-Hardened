@@ -1,3 +1,13 @@
+spcx stock
+護 盤
+thời tiết
+amd stock
+vix指數
+nvda
+夜盤
+台積電
+老農津貼
+費城半導體指數
 灰熊 對 勇士
 邱相榤
 水冷
@@ -26,7 +36,6 @@ argentina vs costa rica
 暴龍 對 尼克
 散戶
 harvey jones
-nvda
 pelicans vs warriors
 信驊
 沃伦·巴菲特
@@ -58,10 +67,8 @@ rb
 faa
 鋼
 天気
-費城半導體指數
 spacex
 aaoi
-thời tiết
 สภาพอากาศ
 76人 對 暴龍
 klasemen tim nasional sepak bola italia vs tim nasional sepak bola prancis
@@ -118,7 +125,6 @@ premier league
 烤雞
 諾丁漢森林 對 曼城
 名古屋地震
-vix指數
 銅箔
 投資
 星巴克
@@ -192,9 +198,3 @@ lcs
 川普
 美股指數
 46k
-微軟股價
-所得 替代 率
-tsm
-台積電
-溫度
-liverpool vs chelsea
