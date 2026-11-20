@@ -1,5 +1,14 @@
-施振荣
+遊戲
+業主
+伊隆·马斯克
 天气
+天氣
+weather
+消費券
+weather today
+dow jones
+道指
+施振荣
 飲食
 八達通
 彩票
@@ -14,7 +23,6 @@ argentina vs costa rica
 nvda stock
 卵巢
 胡定欣
-weather
 阿根廷對哥斯大黎加
 李強
 生肖
@@ -47,10 +55,8 @@ lol 世界賽
 twitch
 挪威對威爾斯
 衛蘭
-遊戲
 羅艷卿
 hk weather
-天氣
 spacex
 weather hong kong
 天文台
@@ -192,9 +198,3 @@ australia
 macbook pro
 六合彩攪珠結果
 who won the ballon d'or 2026
-金球奖
-ballon d'or 2026 live
-worlds 2026
-lol worlds
-cfo
-dazn
